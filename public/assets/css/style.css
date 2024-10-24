@@ -1,0 +1,313 @@
+.body {
+  background: whitesmoke;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.carousel-item {
+  max-height: 100vh;
+}
+
+.carousel-caption {
+  border-top: 10px solid #07bf07;
+  background-color: #00000078;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.primary {
+  color: #07bf07;
+}
+
+.btn-outline-success{
+  color:#07bf07 ;
+  outline-color: #07bf07;
+}
+
+.btn-outline-success:hover{
+  background-color: #07bf07;
+}
+
+.title-container {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.title-container h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #07bf07;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.active {
+  color: #07bf07 !important;
+}
+
+.list-group-item {
+  background-color: whitesmoke;
+}
+
+.text-success{
+  color: #07bf07 !important;
+}
+
+.btn-success{
+  background: #07bf07 ;
+  color: white;
+}
+.btn-ppdb-success:hover{
+  background: gray ;
+  color: white;
+}
+
+.about-us-title {
+  font-size: 50px;
+}
+
+.about-us-subtitle {
+  font-size: 20px;
+}
+
+.card-icon {
+  transition: 0.5s;
+}
+
+.card-icon:hover {
+  color: #07bf07;
+}
+
+.mansory-sizer,
+.mansory-item {
+  width: 30%;
+}
+
+.brand-image {
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(1);
+  transition: 0.5s;
+  height: auto;
+}
+
+.brand-image:hover {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+
+a {
+  color: white;
+}
+
+.btn-gabung, .back-to-top {
+  background: #07bf07;
+}
+
+.back-to-top{
+  display: inline !important;
+  position: fixed ;
+  right: 15px;
+  bottom: 15px;
+}
+
+.bg-darker {
+  background: #111;
+}
+
+.portfolio-filter li {
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.portfolio-filter .filter-active{
+  background: #07bf07;
+}
+
+.breadcumbs {
+  margin-top: 72px;
+  background:#07bf07 ;
+}
+
+.breadcumbs ol li + li::before{
+  display: inline-block;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  content: "/";
+}
+
+.card-img-top {
+  height: auto;
+  width: auto;
+  max-height: 400px;
+  object-fit:cover;
+}
+
+.img-organisasi {
+  width: 80px;
+  height: 80px;
+  object-fit:  cover;
+}
+
+.organisasi-item .card-body h4 {
+  font-size: 18px;
+}
+
+.btn-submit {
+  background: #07bf07;
+  color: white;
+}
+
+.statistik-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.statistik-card:hover {
+  transform: translateY(-5px);
+}
+.statistik-card p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.icon {
+  font-size: 50px;
+  color: #07bf07;
+}
+
+.sambutan-section {
+  /* background-color: #f9f9f9; */
+  padding: 60px 0;
+}
+.sambutan-card {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.sambutan-card img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+.sambutan-card h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.sambutan-card p {
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.index-stat-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.index-stat-card p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.school-profile {
+  margin: 50px auto;
+}
+
+.school-header {
+  background-color: whitesmoke;
+  color: #07bf07;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.school-header h1 {
+  font-weight: bold;
+}
+
+.school-description {
+  margin-top: 20px;
+}
+
+.school-image {
+  border-radius: 10px;
+}
+
+.school-description h5 {
+  color: #444;
+  margin-top: 15px;
+}
+
+.info-table {
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-table table {
+  width: 100%;
+}
+
+.info-table table th, .info-table table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.info-table table th {
+  text-align: left;
+  background-color: #f7f7f7;
+  font-weight: bold;
+  color: #333;
+}
+
+.info-table table td {
+  color: #555;
+}
+
+.facility-card {
+  width: auto;
+  height: auto;
+  transition: transform 0.3s;
+}
+.facility-card:hover {
+  transform: scale(1.05);
+}
+.facility-carousel-item img {
+  width: 50%;
+  height: auto;
+}
+
+
+
+@media (max-width:768px) {
+  .mansory-sizer,
+  .mansory-item {
+    width: 40%;
+  }
+}
+
+@media (max-width:576px) {
+  .mansory-sizer,
+  .mansory-item {
+    width: 100%;
+  }
+}
